@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - FLipkart</title>
+    <!--the lower is used for embedding jquery-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="./signup.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <div id="outerbox">
+        <div id="innerbox">
+            <div id="leftinnerbox">
+              <div class="innermostbox1">
+                <p style="padding-top: 35px; text-align: center; font-size: 25px; font-weight: bold;">Looks like you are new here!</p>
+                <p style="padding-top: 40px; text-align: center; font-size: 20px;">Sign up with your mobile number to get started.</p>
+                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png" alt="signup" style="display: flex; flex-direction: column; align-items: center;justify-content: center; padding-top: 30px;width: 80%;">
+              </div>
+            </div>
+            <div id="rightinnerbox">
+                <div class="innermostbox2">
+                    <input id="phone" class="mobile" type="number" placeholder="Enter Mobile Number" style="margin-top: 20px;"/>
+                
+                    <input id="naam" class="name" type="text" placeholder="Enter your Name" style="margin-top: 30px;"/>
+
+                    <input id="passwrd" class="password" type="password" placeholder="Enter Password" style="margin-top: 30px"/>
+                </div>
+                <div>
+                    <p style="margin: auto; font-size: 12px; width: 80%; text-align: center;">By continuing, you agree to Flipkart's <span style="color: blue;">Terms of Use</span> and <span style="color: blue;">Privacy Policy.</span></p>
+                </div>
+                <div style="padding-left: 5%; padding-top: 10px;">
+                    <button class="continue" style="border: none; background-color: #fb641b; color: white; font-size: 20px; width: 90%; padding:10px; border-radius: 5px;" onclick="Signup()">CONTINUE</button>
+                </div>
+                <div style="padding-left: 5%; padding-top: 10px;">
+                    <button class="button" style="border: none; background-color: whitesmoke; color: #2874f0; font-size: 20px; width: 90%; padding:10px; border-radius: 5px;" onclick="existing()">Existing User? Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!--the lower is used for embedding the navbar-->
+<script>
+    $(function(){
+        $("#container").load("./navbar.html");
+    });
+</script>
+
+<script src="./signup.js"></script>

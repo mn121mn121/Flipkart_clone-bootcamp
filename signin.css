@@ -1,0 +1,70 @@
+#outerbox{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#innerbox{
+    display: flex;
+    background-color: white;
+    width: 70%;
+    height: 500px;
+}
+
+#leftinnerbox{
+    width:40%;
+    background-color: #2874F0;
+    color:white;
+    font-family: sans-serif;
+}
+
+.innermostbox1{
+    margin: 35px;
+}
+
+#rightinnerbox{
+    width:60%;
+    font-family: sans-serif;
+}
+
+.innermostbox2{
+    margin: 35px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile{
+    outline: 0;
+    width: 80%;
+    height: 25px;
+    border-width: 0 0 2px;
+    border-color: gray;
+}
+
+.mobile:focus{
+    border-color: #2874F0;
+}
+
+.password{
+    outline: 0;
+    width: 80%;
+    height: 25px;
+    border-width: 0 0 2px;
+    border-color: gray;
+}
+
+.password:focus{
+    border-color: #2874F0;
+}
+
+.login:hover{
+    cursor: pointer;
+}
+
+.button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+#products{
+    display: flex;
+}
+
+#topmenu >span{
+    padding: 5px;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+#collection{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 10px;
+    padding-left: 5px;
+}
+
+#collection >div{
+  width: 150px;
+  
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;    
+}
+
+.discountedprice{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.actualprice{
+    font-size: 12px;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.avatar{
+    height: 200px;
+    width: 150px;
+}
+
+.innerbox{
+    display: flex;
+    justify-content: space-around;
+}
